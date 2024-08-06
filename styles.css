@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(185, 185, 185);
+    font-family: "Audiowide",sans-serif;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.info-panel{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 80vh;
+
+
+    background-color: rgb(165, 165, 165); 
+    border-style: inset;
+    border-color: rgb(205, 205, 205);
+    border-width: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.gameboard{
+    width: 80vh;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+     
+    border-style: inset;
+    border-color: rgb(205, 205, 205);
+    border-width: 5px;
+}
+
+.covered{
+    width: 6.25%;
+    height: 6.25%;
+    background-color: rgb(185, 185, 185);
+    border-style: outset;
+    border-color: rgb(205, 205, 205);
+    border-width: 5px;
+}
+
+.revealed {
+    width: 6.25%;
+    height: 6.25%;
+    background-color: rgb(165, 165, 165);
+    border-style: solid;
+    border-color: rgb(140, 140, 140);
+    border-width: 2px;
+}
+
+.gameboard img {
+    width: 100%;
+    height: 100%;
+}
+
+img.flag{
+    width: 50px;
+    height: 50px;
+}
+
+img.redo{
+    width: 50px;
+    height: 50px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+}
+
+button.restart-button{
+    display: flex;
+    align-items: center;
+
+    background-color: lightgray;
+    border-style: outset;
+    border-color: lightgray;
+    border-width: 5px;
+}
+
+.display-1 {
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-2 {
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-3 {
+    color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-4 {
+    color: magenta;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-5 {
+    color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-6 {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-7 {
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+.display-8 {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: calc(1vw + 1vh);
+}
+
+
+
+
+
+
+
+

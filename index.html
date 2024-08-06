@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+    <div class="info-panel">
+        <h1 class="flag-count-indicator">
+            <img class="flag" src="images/flag.png"> <span id="flag-indicator"></span>
+        </h1>
+
+        <h1 id="end-result-text">
+            
+        </h1>
+
+        <button class="restart-button" onclick="resetGame()">
+            <img class="redo" src="images/redo.png">
+        </button>
+    </div>
+
+    <div class="gameboard" id="board">
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
