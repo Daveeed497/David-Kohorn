@@ -1,4 +1,5 @@
 # mine-sweeper
+Deployed at https://david-kohorn.github.io/mine-sweeper/
 
 This project contains a copy of the game Mine Sweeper using HTML, CSS, and JavaScript. It has been created to closely resemble both the graphics and gameplay of the original game.
 
